@@ -1,0 +1,152 @@
+/* Resetando estilo padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #fff;
+}
+
+/* Cabeçalho com navegação */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Seções */
+section {
+    padding: 40px 20px;
+    margin-top: 60px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+/* Home */
+#home {
+    background-image: url('./o-que-eu-preciso-para-abrir-um-bar.jpg'); /* Sua imagem de fundo */
+}
+
+.home-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.home-content p {
+    font-size: 1.5rem;
+}
+
+/* Verificação de Idade */
+#idade {
+    background-image: url('./o-que-eu-preciso-para-abrir-um-bar.jpg');
+}
+
+#idade input, #idade button {
+    padding: 10px;
+    font-size: 1rem;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+#idade button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#idade button:hover {
+    background-color: #555;
+}
+
+#mensagemIdade {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+/* Cardápio */
+#menu {
+    background-image: url('./o-que-eu-preciso-para-abrir-um-bar.jpg');
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.menu-items .item {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.menu-items .item h3 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.menu-items .item p {
+    font-size: 1rem;
+}
+
+/* Pagamento */
+#pagamento {
+    background-image: url('./o-que-eu-preciso-para-abrir-um-bar.jpg');
+}
+
+#pagamento input, #pagamento button {
+    padding: 10px;
+    font-size: 1rem;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+#pagamento button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#pagamento button:hover {
+    background-color: #555;
+}
+
+#mensagemPagamento {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
